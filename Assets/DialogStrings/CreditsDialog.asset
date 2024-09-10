@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170840bb2db3a9a45b9e8f1461ce12ad, type: 3}
+  m_Name: CreditsDialog
+  m_EditorClassIdentifier: 
+  dialogs:
+  - text: Hola!
+    answers: []
+    unityEventIndex: -1
+  - text: Lo primero, gracias por jugar.
+    answers: []
+    unityEventIndex: -1
+  - text: Y lo segundo, espero que hayas disfrutado mucho mi juego.
+    answers: []
+    unityEventIndex: -1
+  - text: "Me llamo \xCDker. Tengo 16 a\xF1os y este ha sido mi juego :)"
+    answers: []
+    unityEventIndex: -1
+  - text: "Todo el contenido que has visto es m\xEDo. Lo he creado usando LIBRESPRITE
+      y BLOCKBENCH principalmente."
+    answers: []
+    unityEventIndex: -1
+  - text: "Los sonidos han sido tratados por mi mismo y descargados de fuentes c\xF3mo:"
+    answers: []
+    unityEventIndex: -1
+  - text: freesound y otras fuentes royalty-free.
+    answers: []
+    unityEventIndex: -1
+  - text: Bye byeee!! ;)
+    answers: []
+    unityEventIndex: 0

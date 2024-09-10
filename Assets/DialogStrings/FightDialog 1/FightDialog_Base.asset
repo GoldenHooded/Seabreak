@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170840bb2db3a9a45b9e8f1461ce12ad, type: 3}
+  m_Name: FightDialog_Base
+  m_EditorClassIdentifier: 
+  dialogs:
+  - text: "Fran: QUE S\xCD"
+    answers: []
+    unityEventIndex: -1
+  - text: "\xCDker: QUE NO"
+    answers: []
+    unityEventIndex: -1
+  - text: 'Fran: (...)'
+    answers: []
+    unityEventIndex: -1
+  - text: "\xCDker: (...)"
+    answers: []
+    unityEventIndex: -1
+  - text: "\xCDker: Que por qu\xE9 nos peleamos?"
+    answers: []
+    unityEventIndex: -1
+  - text: "\xCDker: Pues porque Fran dice que no me va a dar tiempo a acabar el juego
+      esta semana."
+    answers: []
+    unityEventIndex: -1
+  - text: 'Fran: No te va a dar tiempo...'
+    answers: []
+    unityEventIndex: -1
+  - text: "\xCDker: Hmmmmm"
+    answers: []
+    unityEventIndex: -1
+  - text: "\xCDker: Verdad que me dar\xE1 tiempo, capit\xE1n?"
+    answers:
+    - text: Claro que si
+      unityEventIndex: -1
+      nextDialogString: {fileID: 11400000, guid: 91ea8024f7de18f4e8cd4a4ad9233d97, type: 2}
+    - text: No se yo...
+      unityEventIndex: -1
+      nextDialogString: {fileID: 11400000, guid: 27634ca0c978a98479de86e559541661, type: 2}
+    unityEventIndex: -1

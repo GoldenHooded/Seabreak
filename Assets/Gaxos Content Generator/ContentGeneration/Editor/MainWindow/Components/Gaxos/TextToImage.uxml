@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="../Common.uss" />
+    <Style src="./TextToImage.uss" />
+    <ui:VisualElement class="container-spaced">
+        <ContentGeneration.Editor.MainWindow.Components.Gaxos.GaxosParametersElement name="gaxosParametersElement" />
+        <ui:SliderInt show-input-field="true" picking-mode="Ignore" label="Width" value="512" low-value="16" high-value="4096" name="width" tooltip="Choose the resolution at which the AI will deliver the texture (e.g., 1024, 2048, 4096).  Tip: Higher resolutions offer better detail but may require more processing time" />
+        <ui:SliderInt show-input-field="true" picking-mode="Ignore" label="Height" value="512" low-value="16" high-value="4096" name="height" tooltip="Choose the resolution at which the AI will deliver the texture (e.g., 1024, 2048, 4096).  Tip: Higher resolutions offer better detail but may require more processing time" />
+        <ContentGeneration.Editor.MainWindow.Components.GenerationOptionsElement name="generationOptions" 
+                                                                                 AllowMakeTransparent="false" />
+        <ui:Button name="generateButton" text="Generate" class="generateButton" />
+        <ui:VisualElement>
+            <ui:VisualElement name="sendingRequest">
+                <ui:Label text="Sending request" />
+            </ui:VisualElement>
+            <ui:VisualElement name="requestSent">
+                <ui:Label text="Request sent" />
+            </ui:VisualElement>
+            <ui:VisualElement name="requestFailed" class="error-label">
+                <ui:Label text="Request failed, check the console for details" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Code" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:TextField picking-mode="Ignore" readonly="true" multiline="true" name="code" class="code" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

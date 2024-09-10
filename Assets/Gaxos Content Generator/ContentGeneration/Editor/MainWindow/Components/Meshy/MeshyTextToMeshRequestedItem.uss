@@ -1,0 +1,40 @@
+#contents {
+    margin: 0 15px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.generated {
+    color: #07f302;
+}
+.failed {
+    color: #f34802;
+}
+
+#generatorParameters TextElement {
+    -unity-text-align: upper-left;
+}
+
+GeneratedImageElement {
+    margin: 1px 10px;
+    max-width: 200px;
+    max-height: 240px;
+}
+
+#generatorParameters {
+    max-height: 200px;
+}
+
+#generatorParameters .unity-text-element {
+    color: #02e7f4;
+}
+
+.thumbnailsContainer > VisualElement {
+    margin-right: 10px;
+}
+
+#generationTools  > * {
+    margin-right: 10px;
+}

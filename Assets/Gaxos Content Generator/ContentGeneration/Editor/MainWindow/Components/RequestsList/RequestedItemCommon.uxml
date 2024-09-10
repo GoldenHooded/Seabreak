@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="../Common.uss" />
+    <Style src="./RequestedItemCommon.uss" />
+    <ContentGeneration.Editor.MainWindow.Components.SubWindow name="requestedItem" Sub-Window-Name="??" style="flex-grow: 1;">
+        <ui:ScrollView style="flex-grow: 1;">
+            <ui:Button text="Refresh" parse-escape-sequences="true" display-tooltip-when-elided="true" name="refreshButton" style="margin-top: 10px; margin-bottom: 10px;" />
+            <ui:VisualElement class="row" style="flex-direction: row;">
+                <ui:Label tabindex="-1" text="Status:" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-right: 7px;" />
+                <ui:Label tabindex="-1" text="&lt;status&gt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="status" />
+            </ui:VisualElement>
+            <ui:VisualElement name="errorDetails" class="row" style="flex-direction: row;">
+                <ui:Label tabindex="-1" text="Error details:" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-right: 7px;" />
+                <ui:Label tabindex="-1" text="&lt;error&gt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="error" style="color: rgb(255, 157, 150);" />
+            </ui:VisualElement>
+            <ui:VisualElement class="row" style="flex-direction: row;">
+                <ui:Label tabindex="-1" text="Generator:" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-right: 7px;" />
+                <ui:Label tabindex="-1" text="&lt;generator&gt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="generator" style="color: rgb(0, 241, 255);" />
+            </ui:VisualElement>
+            <ui:ScrollView mode="Horizontal" name="imagesContainer" style="min-height: 205px;" />
+            <ui:VisualElement name="childrenContainer" />
+            <ui:VisualElement style="margin-bottom: 9px; flex-grow: 1;">
+                <ui:Label tabindex="-1" text="Generator Parameters:" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:TextField picking-mode="Ignore" readonly="true" multiline="true" name="generatorParameters" style="flex-grow: 0; flex-shrink: 1; height: 172px;" />
+            </ui:VisualElement>
+            <ui:Button name="deleteButton" text="Delete request" style="background-color: rgb(191, 80, 73); color: rgb(255, 255, 255); -unity-font-style: bold; margin-bottom: 14px;" />
+        </ui:ScrollView>
+    </ContentGeneration.Editor.MainWindow.Components.SubWindow>
+</ui:UXML>

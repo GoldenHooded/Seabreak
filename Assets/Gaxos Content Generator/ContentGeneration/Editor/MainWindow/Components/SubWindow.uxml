@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="./SubWindow.uss" />
+    <ui:VisualElement name="subWindow" style="margin-right: 5px; margin-left: 5px; margin-top: 5px; margin-bottom: 5px;">
+        <ui:VisualElement name="header">
+            <ui:VisualElement name="icon" />
+            <ui:Label tabindex="-1" text="Title" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="headerBar" />
+        <ui:VisualElement name="contents" style="flex-grow: 1; margin-top: 16px;" />
+    </ui:VisualElement>
+</ui:UXML>

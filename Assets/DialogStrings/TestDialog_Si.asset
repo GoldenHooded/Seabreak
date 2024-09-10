@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170840bb2db3a9a45b9e8f1461ce12ad, type: 3}
+  m_Name: TestDialog_Si
+  m_EditorClassIdentifier: 
+  dialogs:
+  - text: "Bien! Me gustar\xEDa saber cual es tu color favorito de entre estos tres
+      colores."
+    answers:
+    - text: Rojo
+      nextEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      nextDialogString: {fileID: 0}
+    - text: Verde
+      nextEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      nextDialogString: {fileID: 0}
+    - text: Azul
+      nextEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      nextDialogString: {fileID: 0}
+    nextEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: "Tambi\xE9n es el m\xEDo!!"
+    answers: []
+    nextEvent:
+      m_PersistentCalls:
+        m_Calls: []

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="../Common.uss" />
+    <Style src="../RequestsList/RequestedItemCommon.uss" />
+    <Style src="./MeshyTextToMeshRequestedItem.uss" />
+    <ContentGeneration.Editor.MainWindow.Components.RequestsList.RequestedItemCommon class="container-spaced">
+        <ui:Button text="Save model to project" parse-escape-sequences="true" display-tooltip-when-elided="true" name="saveButton" />
+    </ContentGeneration.Editor.MainWindow.Components.RequestsList.RequestedItemCommon>
+</ui:UXML>
